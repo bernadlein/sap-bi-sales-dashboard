@@ -22,7 +22,7 @@ SAP-BI-Dashboard/
 │ ├── output/
 │ │ ├── qty_per_region.png
 │ │ ├── sales_summary.xlsx
-│ │ └── Sales_Report_SoKlin.pptx
+│ │
 │ └── dashboard_preview_python.png
 │
 ├── requirements.txt
