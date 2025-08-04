@@ -13,7 +13,7 @@ SAP-BI-Dashboard/
 │ └── dashboard_preview_excel.png
 │
 ├── 2-powerbi-dashboard/
-│ ├── SoKlin_SAPBI_PowerBI.pbix
+│ ├── SAP_BI_SalesDashboard_SoKlin.pbix
 │ └── dashboard_preview_powerbi.png
 │
 ├── 3-python-dashboard/
@@ -47,7 +47,7 @@ SAP-BI-Dashboard/
 - Interaktif berdasarkan tanggal, produk, dan channel
 
 🖼️ Preview Excel:  
-![Excel Preview](1-excel-dashboard/dashboard_preview_excel.png)  
+![Excel Preview](dashboard_preview_excel.png)  
 📁 File: `1-excel-dashboard/SoKlin_SAP_Dashboard.xlsx`
 
 ---
@@ -58,8 +58,8 @@ SAP-BI-Dashboard/
 - Filter: Date, Region, Channel, Product
 
 🖼️ Preview Power BI:  
-![Power BI Preview](2-powerbi-dashboard/dashboard_preview_powerbi.png)  
-📁 File: `2-powerbi-dashboard/SoKlin_SAPBI_PowerBI.pbix`
+![Power BI Preview](dashboard_preview_powerbi.png)  
+📁 File: `2-powerbi-dashboard/SAP_BI_SalesDashboard_SoKlin.pbix`
 
 ---
 
@@ -72,7 +72,7 @@ SAP-BI-Dashboard/
   - PowerPoint: `Sales_Report_SoKlin.pptx`
 
 🖼️ Preview Python:  
-![Python Preview](3-python-dashboard/dashboard_preview_python.png)  
+![Python Preview](dashboard_preview_python.png)  
 📁 Notebook: `3-python-dashboard/notebook/SAP_BI_Dashboard.ipynb`
 
 ---
