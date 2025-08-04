@@ -1,46 +1,94 @@
-# SAP BI Sales Dashboard – So Klin 1kg/2kg
+# 📊 SAP BI Sales Dashboard – So Klin 1kg/2kg
 
 Simulasi proyek Business Intelligence (BI) menggunakan data penjualan So Klin 1kg & 2kg  
 Periode: Mei–Juli 2025 | Analisis per Region, Channel, Produk
 
 ---
 
-## 📊 Versi 1: Excel Pivot Dashboard
+## 📁 Struktur Proyek
 
-- Dibuat menggunakan PivotTable, Chart, dan Slicer
-- Visualisasi KPI: Qty Terjual dan Net Sales
-- Filtering interaktif berdasarkan tanggal, produk, dan channel
+SAP-BI-Dashboard/
+├── 1-excel-dashboard/
+│ ├── SoKlin_SAP_Dashboard.xlsx
+│ └── dashboard_preview_excel.png
+│
+├── 2-powerbi-dashboard/
+│ ├── SoKlin_SAPBI_PowerBI.pbix
+│ └── dashboard_preview_powerbi.png
+│
+├── 3-python-dashboard/
+│ ├── data/SoKlin_SalesData_1.csv
+│ ├── notebook/SAP_BI_Dashboard.ipynb
+│ ├── output/
+│ │ ├── qty_per_region.png
+│ │ ├── sales_summary.xlsx
+│ │ └── Sales_Report_SoKlin.pptx
+│ └── dashboard_preview_python.png
+│
+├── requirements.txt
+└── README.md
 
-🖼️ Preview Excel:
-![Excel Preview](dashboard_preview_exel.png)
 
-📁 File Excel: `SoKlin_SAP_Dashboard.xlsx`
+
+---
+
+## 🧩 Dataset
+- `SoKlin_SalesData_1.csv`  
+  Simulasi data penjualan SoKlin:
+  - Tanggal, Produk, Region, Channel, Qty Terjual, Net Sales
+  - Periode: Mei–Juli 2025
+
+---
+
+## ✅ Versi 1: Excel Pivot Dashboard
+
+- PivotTable, Chart, dan Slicer
+- KPI: Qty Terjual & Net Sales
+- Interaktif berdasarkan tanggal, produk, dan channel
+
+🖼️ Preview Excel:  
+![Excel Preview](1-excel-dashboard/dashboard_preview_excel.png)  
+📁 File: `1-excel-dashboard/SoKlin_SAP_Dashboard.xlsx`
 
 ---
 
 ## ⚡ Versi 2: Power BI Dashboard
 
-- Visualisasi interaktif menggunakan Power BI
-- Slicer dan filter lebih fleksibel (date, region, channel, product)
-- Lebih dinamis & scalable untuk data besar
+- Visual interaktif dan scalable
+- Filter: Date, Region, Channel, Product
 
-🖼️ Preview Power BI:
-![Power BI Preview](dashboard_preview_powerbi.png)
-
-📁 File Power BI: `SoKlin_SAPBI_PowerBI.pbix`
+🖼️ Preview Power BI:  
+![Power BI Preview](2-powerbi-dashboard/dashboard_preview_powerbi.png)  
+📁 File: `2-powerbi-dashboard/SoKlin_SAPBI_PowerBI.pbix`
 
 ---
 
-## 📂 Dataset
-- `SoKlin_SalesData_1.csv`: Source data untuk kedua dashboard
+## 🐍 Versi 3: Python Dashboard
+
+- Analisis & visualisasi dengan Python (Matplotlib, Seaborn)
+- Export otomatis:
+  - Excel: `sales_summary.xlsx`
+  - Gambar: `qty_per_region.png`
+  - PowerPoint: `Sales_Report_SoKlin.pptx`
+
+🖼️ Preview Python:  
+![Python Preview](3-python-dashboard/dashboard_preview_python.png)  
+📁 Notebook: `3-python-dashboard/notebook/SAP_BI_Dashboard.ipynb`
 
 ---
 
-## 🔧 Tools Used
-- Excel (Pivot Table, Chart, Slicer)
-- Power BI (Bar Chart, Slicer, Formatting)
-- CSV Data Modeling
+## 💡 Teknologi yang Digunakan
 
-## 👤 Disusun oleh:
-**Bernadus Boli**  
-SAP BI | Data Analyst | Excel Dashboard Enthusiast
+- **Excel**: PivotTable, Chart, Slicer
+- **Power BI**: Interaktif visual, Slicer, Filtering
+- **Python**: Pandas, Matplotlib, Seaborn, python-pptx
+- **Jupyter Notebook**: Proses ETL, eksplorasi, visualisasi
+- **GitHub**: Dokumentasi & portofolio publik
+
+---
+
+## 🚀 Cara Menjalankan Proyek Python
+
+1. Install dependency:
+```bash
+pip install -r requirements.txt
