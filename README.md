@@ -1,24 +1,45 @@
-# SAP BI Dashboard – Laporan Penjualan So Klin 1kg
+# SAP BI Sales Dashboard – So Klin 1kg/2kg
 
-**📊 Simulasi Dashboard Excel | Periode: Mei – Juli 2025**
+Simulasi proyek Business Intelligence (BI) menggunakan data penjualan So Klin 1kg & 2kg  
+Periode: Mei–Juli 2025 | Analisis per Region, Channel, Produk
 
-Dashboard ini adalah hasil simulasi mini project Business Intelligence (BI) dengan pendekatan SAP BI menggunakan data penjualan produk So Klin 1kg berdasarkan:
+---
 
-- Region: Jatim, Sumatera, Kalimantan
-- Channel: Modern & Tradisional
-- Indikator: Qty Terjual dan Net Sales
+## 📊 Versi 1: Excel Pivot Dashboard
 
-## 🔧 Tools & Fitur yang Digunakan
-- Microsoft Excel (PivotTable, Chart, Slicer, KPI)
-- Visualisasi KPI: Total Qty, Total Net Sales, Region/Channel terkuat
-- Dynamic Filtering via Slicer
+- Dibuat menggunakan PivotTable, Chart, dan Slicer
+- Visualisasi KPI: Qty Terjual dan Net Sales
+- Filtering interaktif berdasarkan tanggal, produk, dan channel
 
-## 📂 File Utama
-- `SoKlin_SAP_Dashboard.xlsx` — File Excel interaktif siap presentasi
+🖼️ Preview Excel:
+![Excel Preview](dashboard_preview_excel.png)
 
-## 📸 Preview Dashboard
+📁 File Excel: `SoKlin_SAP_Dashboard.xlsx`
 
-![Preview](dashboard_preview.png)
+---
+
+## ⚡ Versi 2: Power BI Dashboard
+
+- Visualisasi interaktif menggunakan Power BI
+- Slicer dan filter lebih fleksibel (date, region, channel, product)
+- Lebih dinamis & scalable untuk data besar
+
+🖼️ Preview Power BI:
+![Power BI Preview](dashboard_preview_powerbi.png)
+
+📁 File Power BI: `SoKlin_SAPBI_PowerBI.pbix`
+
+---
+
+## 📂 Dataset
+- `SoKlin_SalesData_1.csv`: Source data untuk kedua dashboard
+
+---
+
+## 🔧 Tools Used
+- Excel (Pivot Table, Chart, Slicer)
+- Power BI (Bar Chart, Slicer, Formatting)
+- CSV Data Modeling
 
 ## 👤 Disusun oleh:
 **Bernadus Boli**  
