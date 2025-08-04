@@ -12,7 +12,7 @@ Periode: Mei–Juli 2025 | Analisis per Region, Channel, Produk
 - Filtering interaktif berdasarkan tanggal, produk, dan channel
 
 🖼️ Preview Excel:
-![Excel Preview](dashboard_preview_excel.png)
+![Excel Preview](dashboard_preview_exel.png)
 
 📁 File Excel: `SoKlin_SAP_Dashboard.xlsx`
 
